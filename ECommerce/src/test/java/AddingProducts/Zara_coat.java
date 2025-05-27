@@ -13,6 +13,9 @@ public class Zara_coat {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		System.out.println("Finish");
+		System.out.println("Finish");
+		
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
@@ -34,6 +37,7 @@ public class Zara_coat {
 		}
 	
 	}
+	
 	
 	
 	
