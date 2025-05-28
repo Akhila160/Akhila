@@ -23,6 +23,7 @@ public class Zara_coat {
 		driver.findElement(By.xpath("//input[@id='userEmail']")).sendKeys("akhilabarbie1@gmail.com");
 		driver.findElement(By.xpath("//input[@id='userPassword']")).sendKeys("Akhila@123");
 		driver.findElement(By.xpath("//input[@id='login']")).click();
+		System.out.println("hello");
 		
 	List<WebElement> pro=	driver.findElements(By.xpath("//h5"));
 	int count=pro.size();
