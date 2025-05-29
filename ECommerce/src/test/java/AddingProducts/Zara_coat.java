@@ -24,8 +24,14 @@ public class Zara_coat {
 		driver.findElement(By.xpath("//input[@id='userPassword']")).sendKeys("Akhila@123");
 		driver.findElement(By.xpath("//input[@id='login']")).click();
 		System.out.println("hello");
+<<<<<<< HEAD
 		System.out.println("world");
 		System.out.println("hello world");
+=======
+		
+		
+		
+>>>>>>> branch 'master' of https://github.com/Akhila160/Akhila.git
 	List<WebElement> pro=	driver.findElements(By.xpath("//h5"));
 	int count=pro.size();
 	System.out.println(count);
