@@ -25,7 +25,7 @@ public class Zara_coat {
 		driver.findElement(By.xpath("//input[@id='login']")).click();
 		System.out.println("hello");
 		System.out.println("world");
-		
+		System.out.println("hello world");
 	List<WebElement> pro=	driver.findElements(By.xpath("//h5"));
 	int count=pro.size();
 	System.out.println(count);
